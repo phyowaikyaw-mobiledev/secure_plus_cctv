@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "891272051357",
+    "project_id": "plus-cctv",
+    "storage_bucket": "plus-cctv.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891272051357:android:a4333d796d3e0eab8df274",
+        "android_client_info": {
+          "package_name": "com.example.secure_plus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaUAW21ITCctAdB_M93m6H2bFvP-CvcDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

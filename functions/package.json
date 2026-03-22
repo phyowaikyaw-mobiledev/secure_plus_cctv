@@ -1,0 +1,22 @@
+{
+  "name": "secure-plus-functions",
+  "description": "Cloud Functions for Secure Plus: send FCM when customer submits request/ticket or admin adds project",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "20"
+  },
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^6.0.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.2.0"
+  },
+  "private": true
+}
