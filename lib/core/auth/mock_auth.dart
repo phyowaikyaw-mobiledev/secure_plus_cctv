@@ -34,7 +34,7 @@ class MockAuth {
 
   static MockUser? loginAdmin(String u, String p) {
     if (u.trim() == _adminUser && p == _adminPass) {
-      _current = const MockUser(username: 'admin', role: 'admin', displayName: 'Ko Phyo San Thu');
+      _current = const MockUser(username: 'admin', role: 'admin', displayName: 'Ko Phyo Si Thu');
       return _current;
     }
     return null;
